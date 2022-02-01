@@ -1,3 +1,4 @@
 #!/usr/bin/env node.
+/* eslint-disable no-unused-vars */
 
-console.log('Welcome to Brain Games!');
+import { name } from '../src/cli.js';
