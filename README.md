@@ -7,3 +7,5 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 [![.github/workflows/test.yml](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml/badge.svg)](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml)
+
+https://asciinema.org/connect/8ccef260-8e3a-4f51-a870-42d7e8776162

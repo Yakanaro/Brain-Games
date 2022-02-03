@@ -2,3 +2,5 @@
 /* eslint-disable no-unused-vars */
 
 import { name } from '../src/cli.js';
+
+name();
