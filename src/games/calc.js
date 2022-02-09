@@ -36,6 +36,6 @@ const calculateGame = () => {
       return;
     }
   }
-  console.log(`Congratulations,! ${name}`);
+  console.log(`Congratulations, ${name}!`);
 };
 export default calculateGame;

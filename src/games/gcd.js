@@ -41,5 +41,5 @@ export const comDivisor = () => {
       return;
     }
   }
-  console.log(`Congratulations,! ${name}`);
+  console.log(`Congratulations, ${name}!`);
 };
