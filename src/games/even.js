@@ -16,10 +16,9 @@ export function even() {
       if (youAnswer === 'yes') {
         console.log('Correct!');
       } else {
-        console.log(
-          `'${youAnswer}' is wrong answer ;(. Correct answer was 'yes'.
-          Let's try again, ${name}!`
-        );
+        console.log(`'${youAnswer}' is wrong answer ;(. Correct answer was 'yes'.`);
+        console.log(`Let's try again, ${name}!`);
+
         return;
       }
     }
@@ -27,10 +26,8 @@ export function even() {
       if (youAnswer === 'no') {
         console.log('Correct!');
       } else {
-        console.log(
-          `'${youAnswer}' is wrong answer ;(. Correct answer was 'no'.
-          Let's try again, ${name}!`
-        );
+        console.log(`'${youAnswer}' is wrong answer ;(. Correct answer was 'yes'.`);
+        console.log(`Let's try again, ${name}!`);
         return;
       }
     }
