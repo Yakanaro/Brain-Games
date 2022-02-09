@@ -15,7 +15,7 @@ const calculateGame = () => {
     console.log('What is the result of the expression?');
 
     const tryCalc = `${a} ${randomOperation} ${b}`;
-    console.log(tryCalc);
+    console.log(`Question: ${tryCalc}`);
 
     const askAnswer = readlineSync.question('Your answer: ');
 
