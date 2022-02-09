@@ -1,4 +1,4 @@
-#!/usr/bin/env node.
+#!/usr/bin/env node
 
 import { getProgression } from '../src/games/progression.js';
 

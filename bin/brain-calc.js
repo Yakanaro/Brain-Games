@@ -1,4 +1,4 @@
-#!/usr/bin/env node.
+#!/usr/bin/env node
 /* eslint-disable import/no-named-as-default-member */
 /* eslint-disable no-unused-vars */
 
