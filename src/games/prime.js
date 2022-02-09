@@ -19,7 +19,7 @@ export const prime = () => {
       }
     }
 
-    console.log(`Question : ${num}`);
+    console.log(`Question: ${num}`);
     const askAnswer = readlineSync.question('Your answer: ');
 
     let trueAnswer;
