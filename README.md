@@ -54,6 +54,10 @@ This repository contains 5 games that I managed to write as part of the first pr
 
 <a href="https://asciinema.org/a/468531" target="_blank"><img src="https://asciinema.org/a/468531.svg" /></a>
 
+## Game: brain-even
+
+[![asciicast](https://asciinema.org/a/468556.svg)](https://asciinema.org/a/468556)
+
 https://asciinema.org/a/467425
 
 https://asciinema.org/a/467634
