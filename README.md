@@ -50,7 +50,7 @@ This repository contains 5 games that I managed to write as part of the first pr
 4. brain-prime - проверка числа на четность
 5. brain-progression - найти пропущенное число в ряду
 
-Game: brain-calc
+## Game: brain-calc
 
 <a href="https://asciinema.org/a/468531" target="_blank"><img src="https://asciinema.org/a/468531.svg" /></a>
 
