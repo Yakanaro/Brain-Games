@@ -45,23 +45,27 @@ This repository contains 5 games that I managed to write as part of the first pr
 # Игры:
 
 1. brain-calc - калькулятор
-2. brain-even - нужно ответить простое число или нет
+2. brain-even - проверка числа на четность
 3. brain-gcd - найти наибольший общий делитель чисел
-4. brain-prime - проверка числа на четность
+4. brain-prime - нужно ответить простое число или нет
 5. brain-progression - найти пропущенное число в ряду
 
 ## Game: brain-calc
 
-<a href="https://asciinema.org/a/468531" target="_blank"><img src="https://asciinema.org/a/468531.svg" /></a>
+[![asciicast](https://asciinema.org/a/468531.svg)](https://asciinema.org/a/468531)
 
 ## Game: brain-even
 
 [![asciicast](https://asciinema.org/a/468556.svg)](https://asciinema.org/a/468556)
 
-https://asciinema.org/a/467425
+## Game: brain-gcd
 
-https://asciinema.org/a/467634
+[![asciicast](https://asciinema.org/a/468558.svg)](https://asciinema.org/a/468558)
 
-https://asciinema.org/a/467902
+## Game: brain-prime
 
-https://asciinema.org/a/467922
+[![asciicast](https://asciinema.org/a/468559.svg)](https://asciinema.org/a/468559)
+
+## Game: brain-progression
+
+[![asciicast](https://asciinema.org/a/468560.svg)](https://asciinema.org/a/468560)
