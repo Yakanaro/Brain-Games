@@ -6,9 +6,17 @@
 
 [![.github/workflows/test.yml](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml/badge.svg)](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml)
 
+### Description
+
+This repository contains 5 games that I managed to write as part of the first project on the Hexlet training platform.
+
+### Описание
+
+В данном репозитории собраны 5 игр, которые мне удалось написать в рамках первого проекта на обучающей площадке Hexlet.
+
 game: brain-calc
 
-<a href="https://asciinema.org/a/467425" target="_blank"><img src="https://asciinema.org/a/467425.svg" /></a>
+<a href="https://asciinema.org/a/468531" target="_blank"><img src="https://asciinema.org/a/468531.svg" /></a>
 
 https://asciinema.org/a/467425
 
