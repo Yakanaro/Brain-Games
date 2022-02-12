@@ -7,6 +7,7 @@
 [![.github/workflows/test.yml](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml/badge.svg)](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml)
 
 game: brain-calc
+
 <a href="https://asciinema.org/a/467425" target="_blank"><img src="https://asciinema.org/a/467425.svg" /></a>
 
 https://asciinema.org/a/467425
