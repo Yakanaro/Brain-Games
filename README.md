@@ -20,7 +20,33 @@ This repository contains 5 games that I managed to write as part of the first pr
 - Install modules and packages with **Node.js** using command **`apt install npm`**
 - Clone this repository
 - Next, enter the command **`make install`**
-- Run games using command **`make <name game>`**
+- Run game using command **`make <name game>`**
+  **(The commands may vary depending on the OS)**
+
+# Установка
+
+- Установить **node.js** с помощью команды **`apt install nodejs`**
+- Устновить модули и пакеты с помощью команды **`apt install npm`**
+- Клонировать данный репозиторий
+- Далее ввести команду **`make install`**
+- Запустить игру с помощью команды **`make <название игры>`**
+  **(Команды могут отличаться в зависимости от операционной системы)**
+
+# Games:
+
+1. brain-calc - calculate simple expressions
+2. brain-even - need to answer an even number or not
+3. brain-gcd - find the largest divisor of a number
+4. brain-prime - checking a number for parity
+5. brain-progression - specify which digit is missing in the row
+
+# Игры:
+
+1. brain-calc - калькулятор
+2. brain-even - нужно ответить простое число или нет
+3. brain-gcd - найти наибольший общий делитель чисел
+4. brain-prime - проверка числа на четность
+5. brain-progression - найти пропущенное число в ряду
 
 game: brain-calc
 
