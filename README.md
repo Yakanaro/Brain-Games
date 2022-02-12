@@ -21,6 +21,7 @@ This repository contains 5 games that I managed to write as part of the first pr
 - Clone this repository
 - Next, enter the command **`make install`**
 - Run game using command **`make <name game>`**
+
   **(The commands may vary depending on the OS)**
 
 # Установка
@@ -30,6 +31,7 @@ This repository contains 5 games that I managed to write as part of the first pr
 - Клонировать данный репозиторий
 - Далее ввести команду **`make install`**
 - Запустить игру с помощью команды **`make <название игры>`**
+
   **(Команды могут отличаться в зависимости от операционной системы)**
 
 # Games:
@@ -48,7 +50,7 @@ This repository contains 5 games that I managed to write as part of the first pr
 4. brain-prime - проверка числа на четность
 5. brain-progression - найти пропущенное число в ряду
 
-game: brain-calc
+Game: brain-calc
 
 <a href="https://asciinema.org/a/468531" target="_blank"><img src="https://asciinema.org/a/468531.svg" /></a>
 
