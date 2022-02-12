@@ -1,11 +1,28 @@
 // eslint-disable-next-line import/prefer-default-export
 /* eslint-disable no-unused-vars */
-import readlineSync from 'readline-sync';
+import readlineSync, { question } from 'readline-sync';
 
-console.log('Welcome to the Brain Games!');
-export const name = readlineSync.question('May I have your name? ');
+const roundCount = 3;
 
-console.log(`Hello, ${name}!`);
+const startGame = (ruleGame, roundGame) => {
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
+  console.log(ruleGame);
 
-// eslint-disable-next-line max-len
-export const getRandomNumber = (min = 0, max = 100) => Math.floor(Math.random() * (max - min) + min);
+  for (let i = 1; i <= roundCount; i += 1) {
+    const [questionAsk, correctAnswer] = roundGame();
+    console.log(`Question: ${questionAsk}`);
+    const userAnswer = readlineSync.question('Your answer: ');
+
+    if (userAnswer !== correctAnswer) {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${name}!`);
+      return;
+    }
+    console.log('Correct!');
+  }
+  console.log(`Congratulations, ${name}!`);
+};
+
+export default startGame;
