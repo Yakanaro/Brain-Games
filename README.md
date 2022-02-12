@@ -6,7 +6,7 @@
 
 [![.github/workflows/test.yml](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml/badge.svg)](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml)
 
-https://asciinema.org/connect/8ccef260-8e3a-4f51-a870-42d7e8776162
+<script id="asciicast-467425" src="https://asciinema.org/a/467425.js" async></script>
 
 https://asciinema.org/a/467425
 
