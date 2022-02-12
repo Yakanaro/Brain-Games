@@ -6,13 +6,21 @@
 
 [![.github/workflows/test.yml](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml/badge.svg)](https://github.com/Yakanaro/backend-project-lvl1/actions/workflows/test.yml)
 
-### Description
+# Description
 
 This repository contains 5 games that I managed to write as part of the first project on the Hexlet training platform.
 
-### Описание
+# Описание
 
 В данном репозитории собраны 5 игр, которые мне удалось написать в рамках первого проекта на обучающей площадке Hexlet.
+
+# Setup
+
+- Install **node.js** using the command **`apt install nodejs`**
+- Install modules and packages with **Node.js** using command **`apt install npm`**
+- Clone this repository
+- Next, enter the command **`make install`**
+- Run games using command **`make <name game>`**
 
 game: brain-calc
 
