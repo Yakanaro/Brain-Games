@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import startGame from '../index.js';
 import getRandomNumber from '../randomNumb.js';
 
@@ -8,23 +6,29 @@ const ruleGame = 'What number is missing in the progression?';
 const getProgression = (progStart, step, length) => {
   const array = [];
   for (let i = 0; i <= length; i += 1) {
-    const result = progStart + i * step;
-    array.push(result);
+    array.push(progStart + i * step);
   }
   return array;
 };
-const roundGame = () => {
+
+const createHiddenIndex = (progression, hiddenIndex) => {
+  const newProgression = progression;
+  const newHiddenIndex = hiddenIndex;
+  newProgression[newHiddenIndex] = '..';
+  return newProgression.join(' ');
+};
+
+const checkGame = () => {
   const firstNum = getRandomNumber(0, 100);
   const step = getRandomNumber(2, 100);
-  const randLength = getRandomNumber(5, 10);
+  const randomLength = getRandomNumber(5, 10);
 
-  const giveProgression = getProgression(firstNum, step, randLength);
-  const indexRandom = getRandomNumber(0, giveProgression.length - 1);
+  const progression = getProgression(firstNum, step, randomLength);
+  const hiddenIndex = getRandomNumber(0, progression.length - 1);
 
-  const correctAnswer = `${giveProgression[indexRandom]}`;
-  giveProgression[indexRandom] = '..';
-  const question = giveProgression.join(' ');
+  const correctAnswer = progression[hiddenIndex].toString();
+  const question = createHiddenIndex(progression, hiddenIndex);
   return [question, correctAnswer];
 };
-const progGame = () => startGame(ruleGame, roundGame);
+const progGame = () => startGame(ruleGame, checkGame);
 export default progGame;
