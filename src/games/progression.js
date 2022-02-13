@@ -1,7 +1,7 @@
 import startGame from '../index.js';
 import getRandomNumber from '../randomNumb.js';
 
-const ruleGame = 'What number is missing in the progression?';
+const gameRule = 'What number is missing in the progression?';
 
 const getProgression = (progStart, step, length) => {
   const array = [];
@@ -22,13 +22,12 @@ const checkGame = () => {
   const firstNum = getRandomNumber(0, 100);
   const step = getRandomNumber(2, 100);
   const randomLength = getRandomNumber(5, 10);
-
   const progression = getProgression(firstNum, step, randomLength);
   const hiddenIndex = getRandomNumber(0, progression.length - 1);
-
   const correctAnswer = progression[hiddenIndex].toString();
   const question = createHiddenIndex(progression, hiddenIndex);
   return [question, correctAnswer];
 };
-const progGame = () => startGame(ruleGame, checkGame);
+
+const progGame = () => startGame(gameRule, checkGame);
 export default progGame;

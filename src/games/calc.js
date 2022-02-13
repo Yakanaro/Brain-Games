@@ -3,6 +3,8 @@ import getRandomNumber from '../randomNumb.js';
 
 const ruleGame = 'What is the result of the expression?';
 
+const operators = ['+', '-', '*'];
+
 const calculateGame = (a, b, randomOperation) => {
   switch (randomOperation) {
     case '+':
@@ -15,8 +17,6 @@ const calculateGame = (a, b, randomOperation) => {
       return null;
   }
 };
-
-const operators = ['+', '-', '*'];
 
 const checkGame = () => {
   const randomOperation = operators[getRandomNumber(0, operators.length - 1)];
