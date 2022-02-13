@@ -23,7 +23,7 @@ const checkGame = () => {
   const a = getRandomNumber(0, 100);
   const b = getRandomNumber(0, 100);
   const questionAsk = `${a} ${randomOperation} ${b}`;
-  const correctAnswer = calculateGame(a, b, randomOperation).toString();
+  const correctAnswer = String(calculateGame(a, b, randomOperation));
   return [questionAsk, correctAnswer];
 };
 
