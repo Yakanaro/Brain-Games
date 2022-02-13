@@ -19,7 +19,7 @@ const calculateGame = (a, b, randomOperation) => {
 const operators = ['+', '-', '*'];
 
 const checkGame = () => {
-  const randomOperation = operators[getRandomNumber(0, operators.length)];
+  const randomOperation = operators[getRandomNumber(0, operators.length - 1)];
   const a = getRandomNumber(0, 100);
   const b = getRandomNumber(0, 100);
   const questionAsk = `${a} ${randomOperation} ${b}`;
