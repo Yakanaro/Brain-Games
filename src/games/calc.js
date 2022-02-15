@@ -5,8 +5,8 @@ const ruleGame = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const calculateGame = (a, b, randomOperation) => {
-  switch (randomOperation) {
+const calculateGame = (a, b, operation) => {
+  switch (operation) {
     case '+':
       return a + b;
     case '-':
@@ -14,16 +14,16 @@ const calculateGame = (a, b, randomOperation) => {
     case '*':
       return a * b;
     default:
-      return null;
+      throw new Error(`operation ${operation} is not supported`);
   }
 };
 
 const checkGame = () => {
-  const randomOperation = operators[getRandomNumber(0, operators.length - 1)];
+  const operation = operators[getRandomNumber(0, operators.length - 1)];
   const a = getRandomNumber(0, 100);
   const b = getRandomNumber(0, 100);
-  const questionAsk = `${a} ${randomOperation} ${b}`;
-  const correctAnswer = String(calculateGame(a, b, randomOperation));
+  const questionAsk = `${a} ${operation} ${b}`;
+  const correctAnswer = String(calculateGame(a, b, operation));
   return [questionAsk, correctAnswer];
 };
 

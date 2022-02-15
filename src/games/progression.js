@@ -12,9 +12,8 @@ const getProgression = (progStart, step, length) => {
 };
 
 const createHiddenIndex = (progression, hiddenIndex) => {
-  const newProgression = progression;
-  const newHiddenIndex = hiddenIndex;
-  newProgression[newHiddenIndex] = '..';
+  const newProgression = progression.slice();
+  newProgression[hiddenIndex] = '..';
   return newProgression.join(' ');
 };
 
